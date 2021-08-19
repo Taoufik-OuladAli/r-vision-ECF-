@@ -1,0 +1,93 @@
+
+.wrapper{
+    width: 1200px;
+    margin: auto;
+}
+
+.haut_de_page{
+    display: flex;
+    justify-content: space-around;
+    margin-top:  56px; 
+    margin-bottom: 166px;
+}
+h1{
+    margin: 0;
+}
+
+h2{
+    margin-bottom: 150px;
+}
+.droite{
+    display: flex;
+    align-items: flex-end;
+}
+.but{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 52px;
+    margin-bottom: 125px;
+}
+button{
+    width: 168px;
+height: 62px;
+left: 345px;
+top: 438px;
+font-size: 24px;
+background: #EAD017;
+border-radius: 30px;
+cursor: pointer;
+
+}
+button:hover{
+    background-color: #ffffff;
+    box-shadow: 10px 5px 5px #EAD017 ;
+}
+table{
+    table-layout: fixed;
+    width: 90%;
+    margin-left: 125px;
+    border-collapse: collapse;
+    margin-bottom: 100px;
+}
+th{
+    font-size: 24px;
+    font-weight: bold;
+}
+th, td{
+    padding: 10px;
+    text-align: center;
+}
+tr{
+    font-size: 18px;
+}
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.submit{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 200px;
+}
+.formulaire{
+   margin-left: 100px;
+    
+}
+label{
+    display: block;
+    width: 150px;
+	float: left;
+    font-size: 24px;
+    font-weight: bold;
+}
+input, select{
+    margin-bottom: 60px;
+    background: #FFFFFF;
+    border: 1px solid #EAD017;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    width: 323px;
+    height: 50px;
+}
